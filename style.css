@@ -64,6 +64,11 @@ nav > a.logo {
   text-transform: uppercase;
 }
 
+main > section {
+  position: sticky;
+  top: 0;
+}
+
 main > section, main > article {
   margin-bottom: 96px;
   box-shadow: 4px 4px 10px var(--gray);
