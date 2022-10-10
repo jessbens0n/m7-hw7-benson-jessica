@@ -113,6 +113,17 @@ main p {
   margin-bottom: 48px;;
 }
 
+article p:first-of-type::first-letter{
+  color: black;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-left: 3px;
+}
+
 main > article img {
   float: left;
   width: 300px;
